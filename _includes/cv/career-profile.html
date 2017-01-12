@@ -112,12 +112,15 @@
 <section class="section projects-section">
     <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
     <div class="intro">
-        <p>My public projects</p>
+        <p>My public things</p>
     </div>
-    <!--//intro-->
-    <div class="item">
-        <span class="project-title"><a href="#">Evolas</a></span> - <span class="project-tagline">An IoT platform based on Blockchain (comming soon)</span>
-    </div>
+    
+    {% for project in site.data.cv.projects %}
+        <div class="item">
+            <span class="project-title"><a href="{{project.link}}">{{project.name}}</a></span> - <span class="project-tagline">{{project.detail}}</span>
+        </div>
+    {% endfor %}
+
 </section>
 
 <!--//Hobbies-->

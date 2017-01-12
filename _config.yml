@@ -25,7 +25,6 @@ description: Blog of a data engineer
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
   Resume: "resume"
   Resources:
     - Learn markdown: "http://www.markdowntutorial.com/"
