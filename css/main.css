@@ -64,12 +64,12 @@ hr.small {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #5BB66F;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #5BB66F;
 }
 img::selection {
   color: white;
@@ -318,7 +318,7 @@ footer .theme-by {
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #0085a1;
+  color: #5BB66F;
 }
 
 .post-preview .post-title {
@@ -418,10 +418,13 @@ footer .theme-by {
   }
 }
 /* --- Post and page headers --- */
-
+body{
+  height: 100%;
+}
 .intro-header {
   margin: 80px 0 20px;
   position: relative;
+
 }
 .intro-header.big-img {
   background: no-repeat center center;
@@ -440,7 +443,7 @@ footer .theme-by {
   background: no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
+  background-size: conte;
   -o-background-size: cover;
   -webkit-transition: opacity 1s linear;
   -moz-transition: opacity 1s linear;
@@ -585,8 +588,8 @@ footer .theme-by {
 .pager li a:hover,
 .pager li a:focus {
   color: #FFF;
-  background: #0085a1;
-  border: 1px solid #0085a1;
+  background: #5BB66F;
+  border: 1px solid #5BB66F;
 }
 
 .pager {

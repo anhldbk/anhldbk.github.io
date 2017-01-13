@@ -13,7 +13,7 @@ baseurl: ""
 #baseurl: "/projectname"
 
 style: styles-3
-
+future : true
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
@@ -84,7 +84,7 @@ url-pretty: "bigsonata.com"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
+disqus: "bigsonata"
 
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
@@ -93,7 +93,7 @@ url-pretty: "bigsonata.com"
 #gtm: ""
 
 # Facebook App ID
-# fb_app_id: ""
+fb_app_id: "261353507399909"
 
 # Excerpt Word Length
 # Truncates the excerpt to the specified number of words on the index page
