@@ -77,6 +77,8 @@ skills:
     knowledge:
         - name: Application Security
           proficiency: 100%
+        - name: Reverse Engineering
+          proficiency: 80%
         - name: Big Data stack
           proficiency: 90%
         - name: React/React Native
