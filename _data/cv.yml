@@ -90,6 +90,8 @@ skills:
           proficiency: 70%
         - name: NLP
           proficiency: 60%
+        - name: DevOps
+          proficiency: 70%
 
 certificates:
     - name: Economics

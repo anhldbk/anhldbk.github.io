@@ -2,8 +2,6 @@
 
 # url is the full website URL
 # baseurl is the website's URL without the hostname
-
-# If you are building a simple GitHub user page (http://username.github.io) then use these settings:
 url: "https://bigsonata.com"
 enforce_ssl: bigsonata.com
 baseurl: ""
@@ -11,10 +9,6 @@ baseurl: ""
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
 #baseurl: "/projectname"
-
-style: styles-3
-future : true
-# Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
 title: Anh Le
@@ -48,10 +42,10 @@ author:
   name: Anh Le
   title: Data Engineer
   email: "anhldbk@gmail.com"
-  github: anhldbk    # eg. daattali
-  twitter: bigsonata   # eg. daattali
-  linkedin: anhl3vn  # eg. daattali
-  stackoverflow: "197896/anhldbk"  # eg. "3943160/daattali"
+  github: anhldbk
+  twitter: bigsonata
+  linkedin: anhl3vn
+  stackoverflow: "197896/anhldbk"  # open your profile on stackoverflow to get the magic prefix number :-P
 
 # Select which links to show in the footer
 footer-links-active:
@@ -93,6 +87,7 @@ disqus: "bigsonata"
 #gtm: ""
 
 # Facebook App ID
+# Can get yours at: http://findmyfbid.com/
 fb_app_id: "261353507399909"
 
 # Excerpt Word Length
@@ -198,3 +193,5 @@ prose:
 
 gems:
   - jekyll-paginate
+
+future : true

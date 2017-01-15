@@ -70,8 +70,11 @@ var main = {
     initImgs: function() {
         function resize() {
             var heights = window.innerHeight;
-            var slide = document.getElementsByClassName("big-img intro-header")[0];
-            slide.style.height = heights * 0.7 + "px";
+            var slides = document.getElementsByClassName("big-img intro-header");
+            if(slides && slides.length != 0){
+                var slide = slides[0];
+                slide.style.height = heights * 0.7 + "px";
+            }
         }
         resize();
         window.onresize = resize;
