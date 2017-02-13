@@ -94,6 +94,9 @@ skills:
           proficiency: 70%
 
 certificates:
+    - name: Bitcoin and Cryptocurrency Technologies
+      time: 2016
+      issuer: Princeton University (in associated with Coursera)
     - name: Economics
       time: 2010
       issuer: National Economics University
