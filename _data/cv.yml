@@ -115,8 +115,13 @@ certificates:
 
 
 experiences:
+    - job: Senior Software Engineer
+      time: 2017 to present
+      company: VNG
+      details:
+        - Build Internet products to change Vietnamese lives
     - job: Senior Data Engineer
-      time: 2014 to present
+      time: 2014 to 2017
       company: Viettel Group
       details:
         - "Led a team to build a massive-scale social media monitoring system using open source components including: crawlers (written in Java & Scala), messaging (using ActiveMQ & Protobuf), analytics (using Spark, Python Scikit-learn) and storage (with HBase, Redis, ElasticSearch, MySQL)"
