@@ -106,10 +106,10 @@ certificates:
     - name: TOEFL ITP
       time: 2010
       issuer: Postech University (Korea)
-    - name: Best student in “Panasonic-sponsored class for embedded software development”
+    - name: Best students in “Panasonic-sponsored class for embedded software development”
       time: 2009
       issuer: Panasonic Vietnam
-    - name: Speaker in “Bellua Cyber Security Asia, the 4th annual conference on information security and hacking”
+    - name: Speaker in “Bellua Cyber Security Asia, the 4th annual conference on Information Security and Hacking”
       time: 2008
 
 
