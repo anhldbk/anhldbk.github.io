@@ -22,9 +22,7 @@ description: Data engineer
 navbar-links:
   Resume: "resume"
   Resources:
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
-
+    - Books: "books"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -45,7 +43,7 @@ author:
   github: anhldbk
   twitter: bigsonata
   linkedin: anhl3vn
-  stackoverflow: "197896/anhldbk"  # open your profile on stackoverflow to get the magic prefix number :-P
+  stackoverflow: "197896/anhldbk" # open your profile on stackoverflow to get the magic prefix number :-P
 
 # Select which links to show in the footer
 footer-links-active:
@@ -81,7 +79,7 @@ url-pretty: "bigsonata.com"
 disqus: "bigsonata"
 
 # Fill in your Google Analytics ID to track your website using GA
-#google_analytics: ""
+google_analytics: " UA-52997260-1"
 
 # Google Tag Manager ID
 #gtm: ""
@@ -112,16 +110,14 @@ kramdown:
 
 # Default YAML values (more information on Jekyll's site)
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
+      comments: true # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
+  - scope:
       path: "" # all files
     values:
       layout: "page"
@@ -141,8 +137,8 @@ exclude:
 
 # prose.io config
 prose:
-  rooturl: '_posts'
-  media: 'img'
+  rooturl: "_posts"
+  media: "img"
   ignore:
     - 404.html
     - LICENSE
@@ -194,4 +190,4 @@ prose:
 gems:
   - jekyll-paginate
 
-future : true
+future: true

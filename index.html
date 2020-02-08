@@ -5,28 +5,23 @@ title: Hi, I'm Anh Le
 meta-description : "This is my personal blog about life & technologies"
 subtitle: The best engineers I know are artists at heart
 bigimg:
-  - "/img/big-imgs/mit.jpg" : "MIT"
-  - "/img/big-imgs/twinkling-route.jpg" : "Twinkling route (Hanoi)"
-  - "/img/big-imgs/summer-flowers.jpg" : "Lagerstroemia (Hanoi)"
-  - "/img/big-imgs/winter-flower.jpg" : "Winter flowers (Hanoi)"
-  - "/img/big-imgs/sunset.jpg" : "Sunset (Bimson)"
-  - "/img/big-imgs/kids.jpg" : "Kids playing (Hanoi)"
-  - "/img/big-imgs/lamson.jpg" : "Old school (Thanh Hoa)"
-  - "/img/big-imgs/limpid-dawn.jpg" : "Limpid Dawn (Massachusetts)"
-  - "/img/big-imgs/road-ahead.jpg" : "The road ahead (Hanoi)"
+- "/img/big-imgs/summer-flowers.jpg" : "Lagerstroemia (Hanoi)"
+- "/img/big-imgs/winter-flower.jpg" : "Winter flowers (Hanoi)"
+- "/img/big-imgs/limpid-dawn.jpg" : "Limpid Dawn (Massachusetts)"
+- "/img/big-imgs/road-ahead.jpg" : "The road ahead (Hanoi)"
 ---
 
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
+      <h2 class="post-title">{{ post.title }}</h2>
 
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}
+      {% if post.subtitle %}
+      <h3 class="post-subtitle">
+        {{ post.subtitle }}
+      </h3>
+      {% endif %}
     </a>
 
     <p class="post-meta">
@@ -45,7 +40,7 @@ bigimg:
         {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
         {% assign excerpt_word_count = post.excerpt | number_of_words %}
         {% if post.content != post.excerpt or excerpt_word_count > site.excerpt_length %}
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
         {% endif %}
       </div>
     </div>
@@ -58,12 +53,12 @@ bigimg:
       <a href="{{ site.baseurl }}/tag/{{ tag }}">{{ tag }}</a>
       {% endfor %}
       {% else %}
-        {{ post.tags | join: ", " }}
+      {{ post.tags | join: ", " }}
       {% endif %}
     </div>
     {% endif %}
 
-   </article>
+  </article>
   {% endfor %}
 </div>
 
