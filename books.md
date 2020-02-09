@@ -18,7 +18,11 @@ Here are several books I've read so far
 
 `TBD`
 
-### 3. Management
+### 3. Profession
+
+- [The Effective Engineer: How to Leverage Your Efforts In Software Engineering to Make a Disproportionate and Meaningful Impact](https://amzn.to/38cdnFj), by Edmond Lau.A computer science degree teaches you how software works, but it does NOT let you know how to be an excellent engineers. Practice makes perfect. I'm impressed with Edmon writing about ways to be effective in engineering. There are several lessons you can apply at personal or team levels.
+
+### 4. Management
 
 - [An Elegant Puzzle: Systems of Engineering Management](https://amzn.to/2Uzsg0n), by Will Larson. Will has been an engineering leader at Digg, Uber, Stripe, and, as of 2020, Calm. In this book, Will share many precious experience in building an efficient engineering organizations.
 
@@ -26,6 +30,6 @@ Here are several books I've read so far
 
 `TBD`
 
-### 4. Others
+### 5. Others
 
 `TBD`
