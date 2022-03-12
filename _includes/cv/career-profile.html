@@ -29,59 +29,6 @@
 
 </section>
 
-<!--//Certificates-->
-<section class="section experiences-section">
-    <h2 class="section-title"><i class="fa fa-certificate"></i>Certificates</h2>
-
-    {% for certificate in site.data.cv.certificates %}
-        <div class="item">
-            <div class="meta">
-                <div class="upper-row">
-                    <h3 class="title">{{certificate.name}}</h3>
-                    <div class="time">{{certificate.time}}</div>
-                </div>
-                <!--//upper-row-->
-                <div class="company">{{certificate.issuer}}</div>
-            </div>
-        </div>
-    {% endfor %}
-
-</section>
-
-<!--//skills-knowledge-->
-<section class="skills-section section">
-    <h2 class="section-title"><i class="fa fa-book"></i>Knowledge &amp; Proficiency</h2>
-    <div class="skillset">
-        {% for skill in site.data.cv.skills.knowledge %}
-            <div class="item">
-                <h3 class="level-title">{{skill.name}}</h3>
-                <div class="level-bar">
-                    <div class="level-bar-inner" style="width: {{skill.proficiency}};">
-                    </div>
-                </div>
-                <!--//level-bar-->
-            </div>
-        {% endfor %}
-    </div>
-</section>
-
-<!--//skills-programming-->
-<section class="skills-section section">
-    <h2 class="section-title"><i class="fa fa-language"></i>Programming &amp; Proficiency</h2>
-    <div class="skillset">
-        {% for skill in site.data.cv.skills.programming %}
-            <div class="item">
-                <h3 class="level-title">{{skill.name}}</h3>
-                <div class="level-bar">
-                    <div class="level-bar-inner" style="width: {{skill.proficiency}};">
-                    </div>
-                </div>
-                <!--//level-bar-->
-            </div>
-        {% endfor %}
-    </div>
-</section>
-
 <!--//Experiences-->
 <section class="section experiences-section">
     <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
@@ -108,16 +55,20 @@
     {% endfor %}
 </section>
 
-<!--//projects-->
-<section class="section projects-section">
-    <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
-    <div class="intro">
-        <p>My public things</p>
-    </div>
-    
-    {% for project in site.data.cv.projects %}
+<!--//Certificates-->
+<section class="section experiences-section">
+    <h2 class="section-title"><i class="fa fa-certificate"></i>Certificates</h2>
+
+    {% for certificate in site.data.cv.certificates %}
         <div class="item">
-            <span class="project-title"><a href="{{project.link}}">{{project.name}}</a></span> - <span class="project-tagline">{{project.detail}}</span>
+            <div class="meta">
+                <div class="upper-row">
+                    <h3 class="title">{{certificate.name}}</h3>
+                    <div class="time">{{certificate.time}}</div>
+                </div>
+                <!--//upper-row-->
+                <div class="company">{{certificate.issuer}}</div>
+            </div>
         </div>
     {% endfor %}
 

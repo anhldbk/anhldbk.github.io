@@ -1,6 +1,6 @@
 overview:
-  - "Having excellent degrees in Computer Engineering from Hanoi University of Technology, I am a data engineer with 9+ years of experience. I am motivated and enthusiastic by new computing challenges"
-  - "I thrive in unfamiliar situations and enjoy opportunities to learn and gain exposure to new ideas and experiences. With an open mind, I'm willing to learn whatever is necessary to accomplish goals."
+  - "With 10+ years of vast experience, I am motivated and enthusiastic by new challenges in business, product & technology. My latest adventure is in Payment industry where I had a chance to design its heart, a scalable double-entry ledger."
+  - "Be familiar with Agile working environment, I guess people are the most precious capital. I like to empower people, encourage leadership at every organizational levels."
 
 education:
   - degree: MSc with distinction, Computer Engineering
@@ -14,14 +14,14 @@ education:
     school: Lam Son High School for the Gifted
 
 interests:
-  - Blockchain & AI
+  - Distributed System, Blockchain & AI
   - Entrepreneurship
   - Education
 
 hobbies:
-  - Reading books about technologies & entrepreneurship
-  - Self-studying several topics I like such as Machine Learning, Blockchain ...
-  - "Contributing to various open source projects like: Apache Avro, Dapr, MQTT.js, Gensim, HapiJS"
+  - Reading books about technologies & entrepreneurship.
+  - Self-studying several topics I like such as Distributed System, Machine Learning, Blockchain ...
+  - "Contributing to various open source projects like: Redis, Apache Avro, Dapr, MQTT.js, Gensim, HapiJS"
   - Managing several technology communities I founded such as "Vietnam Data Scientists" (since 2013), "Vietnam Blockchain Experts" (since 2016)
   - Blogging
   - Cooking
@@ -29,9 +29,6 @@ hobbies:
   - Photographing
 
 projects:
-  - name: Evolas
-    link: #
-    detail: An IoT platform based on Blockchain (comming soon)
   - name: Unicode Shellcode and Improvements (paper)
     link: "/resources/unicode_shellcode_2008.pdf"
     detail: Buffer overflow bugs are amongst the most prevalent and the most critical bugs today. On exploiting these bugs, we often encounter the problem of Unicode format which prevents our shellcodes from executing properly. This documentation will cover conventional methods to write a Unicode shellcode and the improvements that we have applied.
@@ -43,6 +40,10 @@ references:
     link: "http://www.f-secure.com/vulnerabilities/SA200902011"
   - title: "Article: Building a Search Text Box Control with WPF"
     link: "http://www.codeproject.com/Articles/101975/Building-a-Search-Text-Box-Control-with-WPF"
+  - title: "Redis contributor"
+    link: "https://github.com/redis/redis/pull/10160"
+  - title: "Apache Avro contributor"
+    link: "https://github.com/apache/avro/pull/842"
   - title: "MQTT.js contributor"
     link: "https://github.com/mqttjs/MQTT.js/graphs/contributors"
   - title: "Gensim contributor"
@@ -83,34 +84,31 @@ skills:
   knowledge:
     - name: Application Security
       proficiency: 100%
-    - name: Reverse Engineering
-      proficiency: 80%
-    - name: Big Data stack
+    - name: Distributed systems
       proficiency: 90%
-    - name: React/React Native
+    - name: Big Data
       proficiency: 90%
-    - name: Statistics
-      proficiency: 80%
-    - name: ScikitLearn, Gensim
+    - name: Machine Learning
       proficiency: 70%
-    - name: NLP
-      proficiency: 60%
     - name: DevOps
       proficiency: 70%
 
 certificates:
-  - name: Bitcoin and Cryptocurrency Technologies
+  - name: "Foundation of Everyday leadership"
+    time: 2022
+    issuer: University of Illinois at Urbana-Champaign (via Coursera)
+  - name: "Design-Led Strategy: Design thinking for business strategy and entrepreneurship"
+    time: 2022
+    issuer: The University of Sydney (via Coursera)
+  - name: Bitcoin and Cryptocurrency Technologies,
     time: 2016
-    issuer: Princeton University (in associated with Coursera)
+    issuer: Princeton University (via Coursera)
   - name: Economics
     time: 2010
     issuer: National Economics University
   - name: Business Management
     time: 2010
     issuer: Ministry of Science & Technology
-  - name: TOEFL ITP
-    time: 2010
-    issuer: Postech University (Korea)
   - name: Best students in “Panasonic-sponsored class for embedded software development”
     time: 2009
     issuer: Panasonic Vietnam
@@ -133,9 +131,6 @@ experiences:
       - "Led a team to build a massive-scale social media monitoring system using open source components including: crawlers (written in Java & Scala), messaging (using ActiveMQ & Protobuf), analytics (using Spark, Python Scikit-learn) and storage (with HBase, Redis, ElasticSearch, MySQL)"
       - Optimized performance for Python microservice using ZeroMQ & Greenlet (Apache Thrift does NOT suit my needs)
       - Researched on Statistics, NLP (Natural language processing). I worked under the mentorship of several PhDs. They helped me efficiently learn & improve my knowledge on AI.
-      - Improved the in-house Vietnamese tokenizer
-      - Developed algorithms based on Stanford CoreNLP for matching (token level) documents, extracting snippets...
-      - Trained predictive models with ScikitLearn, XGBoost & Gensim for various projects like document categorization, sentiment analysis.
 
   - job: Security & Data Engineer
     time: 2013-2014
@@ -143,7 +138,6 @@ experiences:
     details:
       - Conducted various researches on Big Data technologies (Hadoop stack), Machine Learning & Text Mining algorithms such as SVM, Neural Network, Ensemble method, TF-IDF … for detecting trends, related topics...
       - Led a project of building a large-scale crawler based on Nutch for collecting information from web and social networks
-      - Worked directly with international technology partners
 
   - job: Manager
     time: 2010-2013
