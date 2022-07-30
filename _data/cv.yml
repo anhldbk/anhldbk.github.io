@@ -1,6 +1,12 @@
 overview:
-  - "With 10+ years of vast experience, I am motivated and enthusiastic by new challenges in business, product & technology. My latest adventure is in Payment industry where I had a chance to design its heart, a scalable double-entry ledger."
-  - "Be familiar with Agile working environment, I guess people are the most precious capital. I like to empower people, encourage leadership at every organizational levels."
+  - Experienced and impactful engineering leader, blogger and speaker. I am motivated and enthusiastic by new challenges in business, product & technology. My latest adventure is in Payment industry to make Vietnam a cashless country with ZaloPay.
+  - "Here are quick things about me & my work:"
+  - 1. Initially I worked in the Security industry. I published various researches. The very first Google Chrome's vulnerability is reported by me.
+  - 2. Later I also had a chance to lead a team to build https://reputa.vn/, a social listening product. It was a great time to work with the brightest minds in Distributed Systems & Machine Learning. I founded Vietnam Data Scientists, a Facebook community with 20k+ members as in 2022.
+  - 3. I've helped ZaloPay to create a scalable ledger. In the near future, we aim for 30k tps. It's really a big challenge.
+  - "4. I love open engineering culture. I've contributed to various open-source projects, e.g.: Apache Avro, Redis, Quarkus. At ZaloPay, I've initiated & led programs for Open Source (https://github.com/zalopay-oss) and Engineering Blog (https://engineering.zalopay.vn/). Sharing is caring. The programs are ways to nurture & attract more talents."
+  - 5. I love growing people. I designed courses & trained freshers.
+  - 6. I'm shifting my mindset to be product-oriented. Marty Cagan is my favorite product guru. I'm interested in using Wardley Mapping in developing strategies.
 
 education:
   - degree: MSc with distinction, Computer Engineering
@@ -116,19 +122,31 @@ certificates:
     time: 2008
 
 experiences:
-  - job: Principal Software Engineer
-    time: 2017 to present
+  - job: Engineering Manager
+    time: 2022 to present
     company: ZaloPay (VNG)
     details:
-      - Concentrating on building distributed systems, I've designed and provided solutions for core services in ZaloPay
+      - Led Accounting domain to achieve 30k tps
+
+  - job: Principal Software Engineer
+    time: 2017 to 2022
+    company: ZaloPay (VNG)
+    details:
+      - Focusing on building distributed systems, I've designed and provided solutions for Payment Core services in ZaloPay
       - Mastermind behind ZaloPay Edu, a comprehensive training program for engineering freshers
       - "I created public channels to make ZaloPay open, including: open source repositories on GitHub, engineering blog on Medium"
+
+  - job: Senior Software Engineer
+    time: 2017
+    company: Zalo (VNG)
+    details:
+      - Worked to improve CDN infrastructure
 
   - job: Senior Data Engineer
     time: 2014 to 2017
     company: Viettel Group
     details:
-      - "Led a team to build a massive-scale social media monitoring system using open source components including: crawlers (written in Java & Scala), messaging (using ActiveMQ & Protobuf), analytics (using Spark, Python Scikit-learn) and storage (with HBase, Redis, ElasticSearch, MySQL)"
+      - "Led a team to build a massive-scale social listening product using open source components including: crawlers (written in Java & Scala), messaging (using ActiveMQ & Protobuf), analytics (using Spark, Python Scikit-learn) and storage (with HBase, Redis, ElasticSearch, MySQL)"
       - Optimized performance for Python microservice using ZeroMQ & Greenlet (Apache Thrift does NOT suit my needs)
       - Researched on Statistics, NLP (Natural language processing). I worked under the mentorship of several PhDs. They helped me efficiently learn & improve my knowledge on AI.
 
