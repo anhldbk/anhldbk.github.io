@@ -1,5 +1,6 @@
 ---
 title: Chaos Engineering at Accounting Engineering team
+image: /img/2023/chaos-engineering/chaos-steps.png
 ---
 
 > This is a mirror for my post at [engineering.zalopay.vn](https://engineering.zalopay.vn/how-we-apply-chaos-engineering/). It's a 2nd post that I use [Red Thread framework](https://tamsenwebster.com/what-is-the-red-thread/) to tell stories.
@@ -35,6 +36,9 @@ We can inject failures into our systems to validate their resilience. For exampl
 This is not new. In 2011, Netflix debuted its open-source project, [Chaos Monkey](https://netflix.github.io/chaosmonkey/), a tool to randomly terminate running instances. Chaos Monkey helped Netflix verify if their infrastructure could tolerate sudden and unexpected failures. Later in 2014, Netflix introduced Failure Injection Testing (FIT) platform, which was an orchestrator to inject faults at a larger scale of and across many teams. The monkey and its friends laid the foundation for Chaos Engineering, a technique for learning about how your system behaves by applying the discipline of empirical exploration. Through exploration we gain more knowledge about the unknowns.
 
 The technique has 4 steps:
+
+![jepsen.png](/img/2023/chaos-engineering/chaos-steps.png)
+
 
 1. Define the ‘**steady-state**’ observable via metrics
 
