@@ -1,12 +1,12 @@
 <!-- TODO this file has become a mess, refactor it -->
 
-{% if page.bigimg or page.title %}
+{% if page.featuredimg or page.title %}
 
-{% if page.bigimg %}
-    <div id="header-big-imgs" data-num-img={% if page.bigimg.first %}{{ page.bigimg.size }}{% else %}1{% endif %}
-      {% for bigimg in page.bigimg %}
+{% if page.featuredimg %}
+    <div id="header-featured" data-num-img={% if page.featuredimg.first %}{{ page.featuredimg.size }}{% else %}1{% endif %}
+      {% for featuredimg in page.featuredimg %}
     	  {% assign imgnum = forloop.index %}
-    	  {% for imginfo in bigimg %}
+    	  {% for imginfo in featuredimg %}
     	    {% if imginfo[0] %}
     		  data-img-src-{{ imgnum }}="{{ imginfo[0] | prepend: site.baseurl | replace: '//', '/' }}"
     		  data-img-desc-{{ imgnum }}="{{ imginfo[1] }}"
@@ -18,8 +18,8 @@
     ></div>
 {% endif %}
 
-<header class="header-section {% if page.bigimg %}has-img{% endif %}">
-{% if page.bigimg %}
+<header class="header-section {% if page.featuredimg %}has-img{% endif %}">
+{% if page.featuredimg %}
 <div class="big-img intro-header">
   <div class="container">
     <div class="row">

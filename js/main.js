@@ -1,6 +1,6 @@
 var main = {
 
-    bigImgEl: null,
+    featuredimgEl: null,
     numImgs: null,
 
     init: function() {
@@ -80,9 +80,9 @@ var main = {
         window.onresize = resize;
 
         // If the page was large images to randomly select from, choose an image
-        if ($("#header-big-imgs").length > 0) {
-            main.bigImgEl = $("#header-big-imgs");
-            main.numImgs = main.bigImgEl.attr("data-num-img");
+        if ($("#header-featured").length > 0) {
+            main.featuredimgEl = $("#header-featured");
+            main.numImgs = main.featuredimgEl.attr("data-num-img");
 
             // 2fc73a3a967e97599c9763d05e564189
             // set an initial image
@@ -128,8 +128,8 @@ var main = {
 
     getImgInfo: function() {
         var randNum = Math.floor((Math.random() * main.numImgs) + 1);
-        var src = main.bigImgEl.attr("data-img-src-" + randNum);
-        var desc = main.bigImgEl.attr("data-img-desc-" + randNum);
+        var src = main.featuredimgEl.attr("data-img-src-" + randNum);
+        var desc = main.featuredimgEl.attr("data-img-desc-" + randNum);
 
         return {src: src, desc: desc}
     },
