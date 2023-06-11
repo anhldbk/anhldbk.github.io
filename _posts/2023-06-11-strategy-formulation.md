@@ -39,7 +39,7 @@ IMHO From another perspective, the kernel shares some similarities with the  Gol
 
 ## Analysis
 
-*"A problem well-stated is a problem half-solved." - Charles Kettering*
+> "A problem well-stated is a problem half-solved.", Charles Kettering
 
 A good diagnosis is a critical first step in developing a good strategy. It also goes beyond surface-level symptoms to identify the underlying causes of the problem, which requires careful analysis and research to understand the root causes.
 
