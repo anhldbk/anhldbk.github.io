@@ -11,7 +11,7 @@ baseurl: ""
 #baseurl: "/projectname"
 
 # Name of website
-title: Anh Le
+title: Andy Le
 
 # Short description of your site
 description: Data engineer
@@ -37,7 +37,7 @@ avatar: "/img/avatar.jpg"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Anh Le
+  name: Andy Le
   title: Data Engineer
   email: "anhldbk@gmail.com"
   github: anhldbk
@@ -116,8 +116,8 @@ defaults:
     values:
       layout: "post"
       comments: false # add comments to all blog posts
-      newsletter: true 
-      show-next-post: false 
+      newsletter: true
+      show-next-post: false
       social-share: true # add social media sharing buttons to all blog posts
   - scope:
       path: "" # all files
