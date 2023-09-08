@@ -20,7 +20,7 @@ description: Data engineer
 
 # List of links in the navigation bar
 navbar-links:
-  Resume: "resume"
+  Resume: "resources/resume.pdf"
   Resources:
     - Books: "books"
 
