@@ -208,6 +208,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (= 106)
+  jekyll
   jekyll-admin
   jekyll-paginate
 
