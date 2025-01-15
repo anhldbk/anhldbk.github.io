@@ -4,7 +4,7 @@ layout: page
 newsletter: true
 social-share: true
 show-avatar: true
-image: /img/2025/npm-dependency-confusion.png
+image: /img/2025/software-supply-chain-threats.jpeg
 ---
 
 
@@ -28,7 +28,7 @@ Here's a brief overview of how it works:
 
 5. `Executing Malicious Code`: The counterfeit package contains malicious code that gets executed, allowing the attacker to exfiltrate data or perform other malicious activities.
 
-This attack is particularly dangerous for Software Supply Chain because it doesn't require any action from the victim. the malicious package is automatically installed due to the way such package registries work. They always prioritize public registries before private ones. Yes, sadly `it's a feature, not a bug`.
+This attack is particularly dangerous for Software Supply Chain because it doesn't require any action from the victim. The malicious package is automatically installed due to the way such package registries work. They always prioritize public registries before private ones. Yes, sadly `it's a feature, not a bug`.
 
 According to [a report by Sonatype](https://www.csoonline.com/article/3560646/malicious-open-source-software-packages-have-exploded-in-2024.html), there has been a significant rise in malicious open-source software packages across various registries, including npm, PyPI, and RubyGems. Over 500,000 new malicious packages were tracked since November 2023, highlighting the growing threat to software supply chain.
 
@@ -46,7 +46,7 @@ It’s important to note that no single mitigation strategy is foolproof. To mit
 
 - `Version locking`: Lock dependencies to specific versions to prevent automatic updates from pulling in malicious code. This can be done using `package-lock.json` (in npm) or `Gemfile.lock` (in Ruby).
 
-- `Proactive Monitoring`: Regularly scan dependencies for vulnerabilities and monitor for suspicious activity. Tools like Snyk, WhiteSource, or Sonatype can help automate this process.
+- `Proactive Monitoring`: Regularly scan dependencies for vulnerabilities and monitor for suspicious activities.
 
 - `Awareness Training`: Last but not least, educate developers on the risks of supply chain attacks. Always review suggested code and dependencies before accepting them, and be aware of the potential security implications.
 
