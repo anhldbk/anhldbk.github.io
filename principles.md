@@ -19,6 +19,7 @@ image: /img/2025/dalat-2025.jpg
   - [Mastery](#mastery)
   - [Conflicts](#conflicts)
 - [Business](#business)
+  - [Customer obsession](#customer-obsession)
   - [Strategy](#strategy)
 - [Products](#products)
 - [Technologies](#technologies)
@@ -28,6 +29,12 @@ This is an ever-changing document containing principles I follow. Some principle
 ## Mindset
 
 ### Ethical
+
+> "Kindness is invincible", Marcus Aureliu
+
+Always uphold ethical standards. Straying from them has consequences that often come back to haunt you.
+
+I like to apply Buddhist teachings such as Karma and the [Noble Eightfold Path](https://mindworks.org/blog/what-is-buddhist-eightfold-path/) in my work. Everything comes and goes in a single breath.
 
 ### First principles
 
@@ -66,7 +73,7 @@ Many of work conflicts are because people don’t know each other well. It's cri
 
 ### Mastery
 
-Follow the best and aim to be the best.
+Follow the best and aim to be the best. [Mastery leads to motivation](https://www.amazon.com/Good-They-Cant-Ignore-You/dp/1455509124).
 
 ### Conflicts
 
@@ -74,12 +81,25 @@ Follow the best and aim to be the best.
 
 Healthy conflicts are good to build a diversified team to solve real-world problems. How to create a [psychologically safe environment](https://hbr.org/2023/02/what-is-psychological-safety) where people can be listened is important.
 
-No tolerance to unhealthy conflicts
+No tolerance to unhealthy conflicts.
 
 ## Business
 
+### Customer obsession
+
+I like the Working Backward principle at Amazon focusing on starting with the customer's needs and desired outcomes when developing new products or services. In addition to external customers using our software, we also have internal ones developing/operating/maintaining the software.
+
 ### Strategy
+
+> "A strategy is a coherent set of analyses, concepts, policies, arguments, and actions that respond to a challenge", Richard Rumelt.
+
+Thinking strategically before doing work. Entire organizations must understand how a strategy is formulated and executed, how to respond if the reality changes. [Wardley Mapping](https://learnwardleymapping.com/) is a valuable tool to develop a strategy systematically and collaboratively.
+
 
 ## Products
 
+tbd
+
 ## Technologies
+
+tbd
