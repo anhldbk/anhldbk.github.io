@@ -487,7 +487,7 @@ body {
 }
 .intro-header.big-img .page-heading .page-subheading,
 .intro-header.big-img .post-heading .post-subheading {
-    font-weight: 400;
+    font-weight: 200;
 }
 .intro-header.big-img .page-heading hr {
     box-shadow: 1px 1px 3px #000;
@@ -520,10 +520,10 @@ body {
         padding: 150px 0;
     }
     .intro-header .page-heading h1 {
-        font-size: 80px;
+        font-size: 32px;
     }
     .intro-header .post-heading h1 {
-        font-size: 50px;
+        font-size: 33x;
     }
     .intro-header.big-img .img-desc {
         font-size: 14px;
