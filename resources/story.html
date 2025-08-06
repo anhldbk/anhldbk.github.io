@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Lighthouse Keeper's Tale</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Times New Roman", serif;
+            font-size: 18px;
+            line-height: 1.6;
+            color: #000;
+            background-color: #fff;
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .page {
+            display: none;
+            min-height: 80vh;
+            padding: 20px 0;
+        }
+
+        .page:target {
+            display: block;
+        }
+
+        #page1 {
+            display: block;
+        }
+
+        h1 {
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        p {
+            margin-bottom: 16px;
+            text-align: justify;
+            text-indent: 30px;
+        }
+
+        .navigation {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 20px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 10px 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .nav-link {
+            padding: 8px 16px;
+            font-size: 16px;
+            border: 1px solid #333;
+            background: #fff;
+            color: #333;
+            text-decoration: none;
+            border-radius: 3px;
+            display: inline-block;
+        }
+
+        .nav-link:hover {
+            background: #f0f0f0;
+        }
+
+        .page-counter {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        /* Page-specific navigation visibility */
+        #page1:target ~ .navigation .prev { display: none; }
+        #page3:target ~ .navigation .next { display: none; }
+
+        /* Kindle-specific optimizations */
+        @media screen and (max-width: 600px) {
+            body {
+                font-size: 16px;
+                padding: 15px;
+            }
+            
+            .navigation {
+                bottom: 10px;
+                gap: 15px;
+                padding: 8px 15px;
+            }
+            
+            .nav-link {
+                padding: 6px 12px;
+                font-size: 14px;
+            }
+        }
+
+        /* E-ink display optimization */
+        @media (monochrome) {
+            body {
+                background: white;
+                color: black;
+            }
+            
+            .nav-link {
+                border: 2px solid black;
+                background: white;
+                color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page-counter">Page 1-3</div>
+
+    <div id="page1" class="page">
+        <h1>The Lighthouse Keeper's Tale</h1>
+        
+        <p>On a windswept cliff overlooking the treacherous Serpent's Bay, stood the Beacon Light Lighthouse, its white tower stretching toward the stormy sky like a finger pointing to heaven. For thirty years, Thomas Whitmore had been its keeper, maintaining the great lens that had guided countless ships safely through the jagged rocks below.</p>
+
+        <p>Thomas was a man of simple pleasures and profound solitude. His weathered hands knew every bolt and gear of the lighthouse mechanism, and his keen eyes could read the sea's moods like an ancient language. The townspeople below thought him eccentric, this hermit who chose the company of seabirds and crashing waves over human conversation.</p>
+
+        <p>But Thomas harbored a secret that had kept him faithful to his post all these years. Every night, as he climbed the spiral stairs to light the beacon, he would pause at the small window facing inland and search the darkness for a particular light in the village below—the warm yellow glow from the window of Rose Meadowbrook's cottage.</p>
+
+        <p>Rose had been the village schoolteacher when Thomas first arrived, a woman whose laugh could charm the sternest fisherman and whose kindness extended to every soul in the community. They had shared one perfect summer of evening walks along the shore, but when autumn came, Thomas's fear of abandoning his duty had kept him from speaking the words that might have changed both their lives.</p>
+    </div>
+
+    <div id="page2" class="page">
+        <h2>Chapter 2: The Storm</h2>
+        
+        <p>On this particular October evening, the worst storm in a decade was approaching Serpent's Bay. The wind howled like a banshee, and the waves below crashed against the rocks with unprecedented fury. Thomas had received word by radio that a passenger vessel, the Star of Dublin, was fighting through the storm and would need the lighthouse beacon to navigate safely to harbor.</p>
+
+        <p>As he prepared to ascend to the beacon room, Thomas noticed something that made his blood run cold. The light in Rose's cottage window—his nightly beacon of hope—was flickering erratically. Through the storm, he could see figures moving about her garden, and even at this distance, he sensed something was terribly wrong.</p>
+
+        <p>For the first time in thirty years, Thomas Whitmore faced an impossible choice. The Star of Dublin would arrive within the hour, carrying two hundred souls who depended on his lighthouse for their lives. But down in the village, the woman he had loved in silence for three decades might be in mortal danger.</p>
+
+        <p>His hands trembled as he gripped the lighthouse railing. The beacon mechanism awaited his attention, its great lens ready to cast its life-saving light across the storm-tossed waters. Yet his heart was pulled toward the village, toward Rose, toward the life he had never dared to claim.</p>
+
+        <p>The storm raged harder, and in the distance, he could see the faint lights of the approaching ship struggling against the mountainous waves.</p>
+    </div>
+
+    <div id="page3" class="page">
+        <h2>Chapter 3: The Choice</h2>
+        
+        <p>Thomas stood frozen for what felt like an eternity but was only moments. Then, with the clarity that comes only in life's most crucial seconds, he realized that his three decades of faithful service had taught him something profound: true duty is not about following rules blindly, but about serving love in its highest form.</p>
+
+        <p>He lit the beacon with practiced efficiency, its powerful beam cutting through the storm like a sword of light. Then, for the first time since becoming keeper, he locked the lighthouse door behind him and ran down the treacherous cliff path toward the village.</p>
+
+        <p>What he found at Rose's cottage was not the disaster he had feared, but something far more wonderful. Rose, now silver-haired but still beautiful, was surrounded by her former students—now grown men and women—who had gathered to celebrate her seventieth birthday. The flickering light had been candles on a cake, and the figures in the garden were guests arriving with flowers and gifts.</p>
+
+        <p>When Rose saw Thomas approaching through the rain, her face lit up with a joy that rivaled the lighthouse beacon itself. "Thomas," she called out, "I was hoping you might see us from up there and come down to join us."</p>
+
+        <p>As the Star of Dublin safely navigated into harbor, guided by the faithful lighthouse beam, Thomas Whitmore finally spoke the words he had kept locked in his heart for thirty years. And Rose, who had waited by her window every evening hoping to catch a glimpse of the man who tended the light above, answered with the yes that had been waiting on her lips for just as long.</p>
+
+        <p>That night, for the first time in three decades, two lights shone from Serpent's Bay—the great beacon that guided ships to safety, and the warm glow from Rose's cottage where two hearts had finally found their way home to each other.</p>
+
+        <p style="text-align: center; margin-top: 40px; font-style: italic;">~ The End ~</p>
+    </div>
+
+    <div class="navigation">
+        <a href="#page1" class="nav-link prev">← Previous</a>
+        <a href="#page2" class="nav-link next">Next →</a>
+        <a href="#page3" class="nav-link next">Next →</a>
+        <a href="#page2" class="nav-link prev">← Previous</a>
+        <a href="#page1" class="nav-link">Start Over</a>
+    </div>
+
+    <script>
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        document.addEventListener('touchstart', function(event) {
+            touchStartX = event.changedTouches[0].screenX;
+        });
+
+        document.addEventListener('touchend', function(event) {
+            touchEndX = event.changedTouches[0].screenX;
+            const swipeDistance = 50;
+            
+            if (touchEndX < touchStartX - swipeDistance) {
+                // Swipe left - next page
+                const currentPage = window.location.hash || '#page1';
+                if (currentPage === '#page1') {
+                    window.location.hash = '#page2';
+                } else if (currentPage === '#page2') {
+                    window.location.hash = '#page3';
+                }
+            }
+            
+            if (touchEndX > touchStartX + swipeDistance) {
+                // Swipe right - previous page
+                const currentPage = window.location.hash || '#page1';
+                if (currentPage === '#page3') {
+                    window.location.hash = '#page2';
+                } else if (currentPage === '#page2') {
+                    window.location.hash = '#page1';
+                }
+            }
+        });
+    </script>
+</body>
+</html>
